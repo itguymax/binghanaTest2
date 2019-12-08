@@ -7,11 +7,11 @@ import Router from "./src/Router";
 
 class App extends Component {
   render() {
-   // const store = createStore(reducer, {}, applyMiddleware(ReduxThunk));
+   const store = createStore(reducer, {}, applyMiddleware(ReduxThunk));
     return (
-      
+      <Provider store={store}>
         <Router />
-     
+      </Provider>
     );
   }
 }

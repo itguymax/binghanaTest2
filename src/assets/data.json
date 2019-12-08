@@ -1,0 +1,146 @@
+[
+  {
+    "categories": "casquettes",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/casquetteBoston.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "casquettes",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/casquetteChicago.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "casquettes",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/casquetteLakers.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "casquettes",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/casquetteMiami.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "telephone",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/htcU11.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "telephone",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/iphoneX.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "telephone",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/samsungS9.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan1.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan2Retro.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan3Retro.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan4.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan5Retro.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan6.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan7.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan8.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan15.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan16.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "basket",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/jordan17.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "lunettes",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/lunetteMarcJacobs.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "lunettes",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/lunettePolice.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "lunettes",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/lunettesArmani.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "montres",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/montreRolex.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "montres",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/montreTagHeur.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  },
+  {
+    "categories": "montres",
+    "prix": "2000",
+    "image": "../assets/images/productsImage/montreTissot.jpg",
+    "desrciption": " lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an"
+  }
+]

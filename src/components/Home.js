@@ -3,6 +3,7 @@ import { Text, View, Image, ScrollView, FlatList } from "react-native";
 import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
 import { Card, CardSection, Button } from "./common";
+import { getProductsByCategory} from '../redux/actions'
 //import HomeIntroduceProductOnSale from "./HomeIntroduceProductOnSale";
 
 class Home extends Component {
@@ -66,8 +67,8 @@ class Home extends Component {
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
                 onPress={() => {
-                  // this.props.getProductsByCategory({ category: "Boots" });
-                  // Actions.productList();
+                  this.props.getProductsByCategory({ category: "basket" });
+                  Actions.productList();
                 }}
               >
                 Basket
@@ -93,10 +94,10 @@ class Home extends Component {
                   backgroundColor: "#316497"
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
-                // onPress={() => {
-                //   this.props.getAllTopBrand();
-                //   Actions.categoriesList({ isShowBrand: true });
-                // }}
+                onPress={() => {
+                  this.props.getProductsByCategory({ category: "casquettes" });
+                  Actions.productList();
+                }}
               >
                 Casquettes
               </Button>
@@ -121,10 +122,10 @@ class Home extends Component {
                   backgroundColor: "#ee4035"
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
-                // onPress={() => {
-                //   this.props.getAllTopBrand();
-                //   Actions.categoriesList({ isShowBrand: true });
-                // }}
+                onPress={() => {
+                  this.props.getProductsByCategory({ category: "montres" });
+                  Actions.productList();
+                }}
               >
                 Montres
               </Button>
@@ -148,10 +149,10 @@ class Home extends Component {
                   backgroundColor: "#1a1b21"
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
-                // onPress={() => {
-                //   this.props.getAllTopBrand();
-                //   Actions.categoriesList({ isShowBrand: true });
-                // }}
+                onPress={() => {
+                  this.props.getProductsByCategory({ category: "lunettes" });
+                  Actions.productList();
+                }}
               >
                 Lunettes
               </Button>
@@ -176,10 +177,10 @@ class Home extends Component {
                   backgroundColor: "#ee4035"
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
-                // onPress={() => {
-                //   this.props.getAllTopBrand();
-                //   Actions.categoriesList({ isShowBrand: true });
-                // }}
+                onPress={() => {
+                  this.props.getProductsByCategory({ category: "telephone" });
+                  Actions.productList();
+                }}
               >
                 Mobiles
               </Button>
@@ -210,6 +211,12 @@ const styles = {
   }
 };
 
+const mapStateToProps = state => {
+  return { products: state.products };
+};
 
-
-export default Home
+export default connect(mapStateToProps, {
+  
+  getProductsByCategory,
+  
+})(Home);

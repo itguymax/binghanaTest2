@@ -1,19 +1,31 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import React, { Component } from "react";
+import { FlatList, View } from "react-native";
+import Product from "./Product";
+import { connect } from "react-redux";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Product List</Text>
-    </View>
-  );
+class ProductList extends Component {
+  renderItem({ item }) {
+    return <Product key={item} item={item} />;
+  }
+
+  keyExtractor = (item, index) => item.name;
+
+  render() {
+    return (
+      <View style={{ paddingTop: 50, paddingBottom: 60 }}>
+        <FlatList
+          data={this.props.products}
+          renderItem={this.renderItem}
+          keyExtractor={this.keyExtractor}
+          numColumns={2}
+        />
+      </View>
+    );
+  }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center"
-  }
-});
+const mapStateToProps = state => {
+  return { products: state.products.products };
+};
+
+export default connect(mapStateToProps)(ProductList);
