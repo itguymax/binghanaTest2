@@ -4,16 +4,7 @@ import { Actions } from "react-native-router-flux";
 import { connect } from "react-redux";
 import { Card, CardSection, Button } from "./common";
 import { getProductsByCategory} from '../redux/actions'
-//import HomeIntroduceProductOnSale from "./HomeIntroduceProductOnSale";
-
 class Home extends Component {
-  // componentDidMount() {
-  //   this.props.getProductsOnSaleIntro();
-  // }
-
-  // renderItem({ item }) {
-  //   return <HomeIntroduceProductOnSale key={item} item={item} />;
-  // }
 
   keyExtractor = (item, index) => item.name;
 
@@ -67,8 +58,7 @@ class Home extends Component {
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
                 onPress={() => {
-                  this.props.getProductsByCategory({ category: "basket" });
-                  Actions.productList();
+                  Actions.productList({ category: "basket" });
                 }}
               >
                 Basket
@@ -95,8 +85,7 @@ class Home extends Component {
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
                 onPress={() => {
-                  this.props.getProductsByCategory({ category: "casquettes" });
-                  Actions.productList();
+                  Actions.productList({ category: "casquettes" });
                 }}
               >
                 Casquettes
@@ -123,8 +112,7 @@ class Home extends Component {
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
                 onPress={() => {
-                  this.props.getProductsByCategory({ category: "montres" });
-                  Actions.productList();
+                  Actions.productList({ category: "montres" });
                 }}
               >
                 Montres
@@ -150,8 +138,7 @@ class Home extends Component {
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
                 onPress={() => {
-                  this.props.getProductsByCategory({ category: "lunettes" });
-                  Actions.productList();
+                  Actions.productList({ category: "lunettes" });
                 }}
               >
                 Lunettes
@@ -178,8 +165,8 @@ class Home extends Component {
                 }}
                 textStyleProps={{ color: "#FFF", fontWeight: "bold" }}
                 onPress={() => {
-                  this.props.getProductsByCategory({ category: "telephone" });
-                  Actions.productList();
+                  
+                  Actions.productList({ category: "telephone" });
                 }}
               >
                 Mobiles

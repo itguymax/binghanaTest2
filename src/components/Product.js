@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { View, Text, Image, TouchableWithoutFeedback } from "react-native";
-import StarRating from "react-native-star-rating";
 import { Actions } from "react-native-router-flux";
 
 class Product extends Component {
@@ -9,12 +8,12 @@ class Product extends Component {
   }
 
   render() {
-    const { brand, image, name, price, rating } = this.props.item;
+    const {image, name, price } = this.props.item;
     const {
       styleContainer,
-      styleBrand,
+    
       styleImage,
-      styleName,
+     
       stylePrice
     } = styles;
 
@@ -22,20 +21,13 @@ class Product extends Component {
       <TouchableWithoutFeedback onPress={this.onPressItem.bind(this)}>
         <View style={styleContainer}>
           <Image source={{ uri: image }} style={styleImage} />
-          <Text style={styleBrand}>{brand}</Text>
-          <Text style={styleName}>{name}</Text>
+          
+          
           <View
             style={{ flexDirection: "row", justifyContent: "space-between" }}
           >
             <Text style={stylePrice}>${price}</Text>
-            <StarRating
-              disabled={true}
-              maxStars={5}
-              rating={rating}
-              emptyStarColor={"#FBA919"}
-              fullStarColor={"#FBA919"}
-              starSize={15}
-            />
+           
           </View>
         </View>
       </TouchableWithoutFeedback>
