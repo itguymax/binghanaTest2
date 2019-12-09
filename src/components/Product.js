@@ -21,13 +21,12 @@ class Product extends Component {
       <TouchableWithoutFeedback onPress={this.onPressItem.bind(this)}>
         <View style={styleContainer}>
           <Image source={{ uri: image }} style={styleImage} />
-          
-          
+          <Text style={styleName}>{name}</Text>
+
           <View
             style={{ flexDirection: "row", justifyContent: "space-between" }}
           >
             <Text style={stylePrice}>${price}</Text>
-           
           </View>
         </View>
       </TouchableWithoutFeedback>
@@ -53,10 +52,7 @@ const styles = {
     marginTop: 40,
     marginBottom: 40
   },
-  styleBrand: {
-    fontWeight: "bold",
-    color: "#747474"
-  },
+  
   styleName: {
     color: "#878787"
   },
